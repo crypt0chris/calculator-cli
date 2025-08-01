@@ -1,6 +1,6 @@
 # Calculator CLI
 
-A basic command-line calculator written in Python. Supports `+`, `-`, `*`, and `/` operations based on user input.
+A sleek command-line calculator with Smart Mode, memory recall, and expression history. Built for speed and simplicity.
 
 ## 📦 Installation
 
@@ -19,14 +19,18 @@ Run the calculator script:
 python3 main.py
 ```
 
-Then follow the on-screen prompts to input two numbers and select an operation (`+`, `-`, `*`, `/`).
+Smart Mode is enabled by default. Enter full expressions like `81 / 9`, then use memory/history functions as prompted.
+
+Press `y` when asked to calculate again. Type `n` or press `Ctrl+C` to exit.
 
 ## ✨ Features
 
-- Simple and clean command-line interface
-- Supports basic arithmetic operations
-- Handles invalid input gracefully
-- Lightweight and fast
+- 🧠 Smart Mode: Enter full expressions like `81 / 9`
+- 💾 Memory: Save (M+), Recall (MR), Clear (MC)
+- 🕘 History: View past calculations (H)
+- 🛡️ Input validation: Blocks unsafe expressions
+- 🔄 Continuous calculations without relaunching
+- ⚡ Fast and lightweight
 
 ## 📄 License
 
